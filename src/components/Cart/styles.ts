@@ -1,6 +1,6 @@
 // Importação de bibliotecas externas
 import styled from "styled-components";
-import { cores } from "../../globalStyles";
+import { cores } from "../../GlobalStyles";
 
 export const CartGlobalContainer = styled.div`
   display: none;

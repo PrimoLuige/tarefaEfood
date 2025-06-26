@@ -1,7 +1,7 @@
 // Importação de bibliotecas externas
 import styled from "styled-components"
 // Importação das cores da aplicação
-import { cores } from "../../globalStyles"
+import { cores } from "../../GlobalStyles"
 
 export const FooterContainer = styled.footer`
   background-color: ${cores.bege};
