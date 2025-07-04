@@ -4,9 +4,13 @@ import styled from "styled-components"
 import { cores } from "../../GlobalStyles"
 
 export const FooterContainer = styled.footer`
+  width: 100vw;
   background-color: ${cores.bege};
   text-align: center;
-  padding: 40px 0;
+  padding: 40px 16px;
+  
+  
+  
 `;
 export const FooterLogo = styled.div`
   padding-top: 32px;

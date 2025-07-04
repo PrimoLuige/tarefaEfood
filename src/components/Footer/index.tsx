@@ -9,7 +9,7 @@ import x from "../../assets/images/x.svg";
 
 export default function Footer() {
   return (
-    <S.FooterContainer>
+      <S.FooterContainer>
       <img src={logo} alt="Logo da Efood" />
       <S.FooterLogo>
         <img src={Instagram} alt="Logo do Facbook" />
@@ -21,6 +21,8 @@ export default function Footer() {
         responsabilidade pela entrega, qualidade <br />
         dos produtos é toda do estabelecimento contratado.
       </S.FooterText>
+      
     </S.FooterContainer>
+    
   );
 }
