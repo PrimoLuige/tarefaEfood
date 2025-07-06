@@ -23,6 +23,6 @@ export const FooterLogo = styled.div`
 export const FooterText = styled.p`
   margin-top: 80px;
   color: ${cores.laranja};
-  font-size: 10px;
-  line-height: 11px;
+  font-size: 14px;
+  line-height: 13px;
 `

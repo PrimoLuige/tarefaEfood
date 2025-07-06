@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import * as S from "./styles";
 
 // Importação de imagens
-import fundoHeader from "../../assets/images/imagem_de_fundo.png";
+import fundoHeader from "../../assets/images/fundo.png";
 import logo from "../../assets/images/logo.png";
 // Importação dos endpoints
 import { useGetRestauranteQuery } from "../../services/api";

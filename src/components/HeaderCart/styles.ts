@@ -18,6 +18,7 @@ export const Containerlogo = styled.div`
   color: ${cores.laranja};
   font-size: 18px;
   font-weight: bold;
+  font-style: Roboto;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -54,7 +55,8 @@ export const Italic = styled.h3`
 `;
 export const HomeLink = styled(Link)`
   color: ${cores.laranja};
-  font-size: 20px;
+  font-size: 18px;
+  font-style: Roboto;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -69,8 +71,10 @@ export const Overlay = styled.div`
 `;
 export const Cart = styled.h3`
   cursor: pointer;
-
+  font-size:18px;
+  font-style:Roboto;
+  font-weight: 900;
   &:hover {
-    text-decoration: underline;
+    color: blue;
   }
 `;
